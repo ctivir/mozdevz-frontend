@@ -1,7 +1,5 @@
 import styles from '../styles/Programs.module.css'
 import communities from '../assets/icons/communities.svg'
-import hackaton from '../assets/icons/hackaton.svg'
-import university from '../assets/icons/university.svg'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
