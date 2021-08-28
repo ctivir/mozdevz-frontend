@@ -1,0 +1,337 @@
+.home {}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem .5rem;
+}
+
+.heroDescription {
+  order: 1;
+}
+
+.heroTitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: var(--extra-bold);
+}
+
+.heroCover {
+  margin-bottom: 2rem;
+}
+
+.coverImage {
+  width: 80%;
+}
+
+/* Stats */
+.stats{
+  background: var(--light-grey);
+  padding: 2rem;
+}
+
+.statsDescription {
+  margin-bottom: 2rem;
+}
+
+.statsTitle {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.hightlight {
+  color: var(--primary);
+}
+
+.codingIcon {
+  display: none;
+}
+
+/* Stats Container / Stats Item */
+.statsContainer {}
+
+.statsItem {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.statsNumber {
+  font-size: 3rem;
+}
+
+.bar {
+  display: block;
+  background-color: var(--primary);
+  height: .3rem;
+}
+
+.statsText {
+  font-size: .6rem;
+}
+
+/* Learn Section */
+.learn {}
+
+.learnCover {}
+
+.learnImage {
+  width: 100%;
+}
+
+.learnDescription {
+  padding: 2rem;
+  text-align: center;
+}
+
+.learnTittle {
+  margin-bottom: 1rem;
+}
+
+.learnText {
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+
+/* Connection Section */
+.connection {
+  padding: 2rem;
+  background: var(--light-grey);
+  text-align: center;
+}
+
+.connectionDescription {
+  margin-bottom: 2rem;
+}
+
+.connectionTitle {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.connectionHightlight {
+  color: var(--primary);
+  font-size: .6rem;
+}
+
+/* Card Container */
+.cardContainer {}
+
+.card {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: var(--white);
+  box-shadow: 5px 5px var(--primary);
+}
+
+.cardIcon {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.cardText {
+  font-size: .8rem;
+}
+
+/* Partners Section */
+.partners {
+  padding: 2rem;
+}
+
+.partnersDescription {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.partnersTitle {
+  line-height: 1.7;
+}
+
+.partnersHightlight {
+  font-size: .8rem;
+}
+
+/* Logo Container */
+.logoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logoCard {
+  flex-basis: 80px;
+  border: 1px solid var(--primary);
+}
+
+.logo {
+  width: 80px;
+}
+
+
+@media (min-width: 720px) {
+  /* Hero */
+  .hero {
+    flex-direction: row;
+    padding: 4rem;
+  }
+
+  .heroDescription {
+    flex: 2;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .heroTitle {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroCover {
+    flex: 1;
+    order: 1;
+  }
+
+  .coverImage {
+    width: 30rem;
+  }
+
+  /* Stats */
+  .stats {
+    padding: 4rem;
+  }
+
+  .codingIcon {
+    display: block;
+  }
+
+  .statsDescription {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .statsTitle {
+    font-size: 2.5rem;
+    width: 25ch;
+    text-align: left;
+  }
+
+  .codingIcon > img {
+    width: 5rem;
+  }
+
+  /* Stats Container / Stats Item */
+  .statsContainer {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .statsItem {
+    display: block;
+  }
+
+  .statsNumber {
+    font-size: 4.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .statsText {
+    font-size: .8rem;
+  }
+
+  /* Learn Section */
+  .learn {
+    display: flex;
+    height: 24rem;
+  }
+
+  .learnImage {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .learnDescription {
+    padding: 4rem;
+    text-align: left;
+  }
+
+  .learnTittle {
+    width: 20ch;
+    font-size: 2rem;
+  }
+
+  .learnText {
+    font-size: .9rem;
+    width: 80%;
+    line-height: 1.7;
+  }
+
+  /* Connection Section */
+  .connection {
+    padding: 4rem;
+  }
+
+  .connectionDescription {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .connectionTitle {
+    font-size: 2rem;
+    width: 12ch;
+    line-height: 1.4;
+  }
+  
+  .connectionHightlight {
+    font-size: .9rem;
+  }
+
+  /* Card Container */
+  .cardContainer {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .card {
+    text-align: left;
+    border: 1px solid var(--primary);
+  }
+
+  /* Sponsors Section */
+  .partners {
+    padding: 4rem;
+  }
+
+  .partnersDescription {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partnersTitle {
+    font-size: 2rem;
+  }
+
+  /* Logo Container */
+  .logoContainer {
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .logoCard {
+    flex-basis: 150px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
