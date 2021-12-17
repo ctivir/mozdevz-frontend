@@ -39,7 +39,7 @@ Will be provided when available
 
 ### TODO
 
-- [ X ] Fix Learn section browser-compatibility
+- [X] Fix Learn section browser-compatibility
 - [ ] Create the button component
 - [ ] Make footer component
 - [ ] Integrate the django api
