@@ -38,6 +38,13 @@ Will be provided when available
 - [Django](https://www.djangoproject.com/) - Python Web Framework
 - [CSS Modules](https://github.com/css-modules/css-modules) - For styles
 
+### TODO
+
+- [ ] Create the button component
+- [ ] Make footer component
+- [ ] Integrate the django api
+- [ ] Fix Learn section browser-compatibility
+
 ### Useful resources
 
 - [Django Documentation](https://docs.djangoproject.com/en/3.2/)
