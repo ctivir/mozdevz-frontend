@@ -26,7 +26,11 @@ Will be provided when available
 
 [Mozdevz - Beta](http://mozdevz-frontend.vercel.app/) - Hosted at Vercel
 
-## The process
+## TODO
+- [ ] Create the button component
+- [ ] Make footer component
+- [ ] Integrate the django api
+- [ ] Fix Learn section browser-compatibility
 
 ### Built with
 
