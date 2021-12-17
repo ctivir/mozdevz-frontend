@@ -24,10 +24,9 @@ Will be provided when available
 
 ### Links
 
-Will be provided when available
+[Mozdevz - Beta](http://mozdevz-frontend.vercel.app/) - Hosted at Vercel
 
 ## The process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -37,6 +36,13 @@ Will be provided when available
 - [React](https://reactjs.org/) - JavaScript library
 - [Django](https://www.djangoproject.com/) - Python Web Framework
 - [CSS Modules](https://github.com/css-modules/css-modules) - For styles
+
+### TODO
+
+- [ ] Create the button component
+- [ ] Make footer component
+- [ ] Integrate the django api
+- [ ] Fix Learn section browser-compatibility
 
 ### Useful resources
 
