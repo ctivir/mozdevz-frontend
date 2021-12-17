@@ -24,7 +24,7 @@ Will be provided when available
 
 ### Links
 
-Will be provided when available
+[Mozdevz - Beta](http://mozdevz-frontend.vercel.app/) - Hosted at Vercel
 
 ## The process
 
