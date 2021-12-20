@@ -11,6 +11,7 @@ This project is based on the React + Django Training by Mozdevz.
     - [Links](#links)
   - [The process](#the-process)
     - [Built with](#built-with)
+    - [How to contribute](#how-to-contribute)
     - [Useful resources](#useful-resources)
   - [Acknowledgments](#acknowledgments)
 
@@ -20,7 +21,7 @@ This project is based on the React + Django Training by Mozdevz.
 
 - Build the website for the developer community based in Mozambique - [MozDevz Community](https://github.com/mozdevz)
 
-Will be provided when available
+
 
 ### Links
 
@@ -29,6 +30,7 @@ Will be provided when available
 [Figma Design](https://www.figma.com/file/aWCVAvMyCHSj0POFTU0w5Z/MozdevzUI?node-id=0%3A1) - Figma with the UI. Not done yet, contributors are welcome.
 
 ## The process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -45,25 +47,18 @@ This project uses [Create React App](https://github.com/facebook/create-react-ap
 
 To contribute to this project you have to fork it and clone it.
 
-After cloning it, in the project directory, you can run:
+After cloning it, in the project directory, run:
 
-`yarn start`
+ 1.  `yarn install` to install all the project dependencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 2.  `yarn start`  to run the app in the development mode.
+     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+     The page will reload if you make edits.
 
-Then start to contributing to the project making your changes, when you are done with your changes just submit your PR, we will be happy to review your code. And please may your commit messages and PR Titles be as clean and descriptive as possible. We don't follow a pattern yet but we enforce cleany and tidy git history.
+Please take a look on the issues tab, pick the issue you want to work on or submit an issue on what you want to contribute to the project.
 
-### TODO
-
-There is a lot to be done but for now we are working on the things listed bellow:
-
-- [X] Fix Learn section browser-compatibility
-- [ ] Create the button component
-- [ ] Make footer component
-- [ ] Integrate the django api
+Then start contributing to the project making your changes, when you are done with your changes just submit your PR, we will be happy to review your code. And please **_may your commit messages and PR Titles be as clean and descriptive as possible_**. We don't follow a pattern yet but we enforce clean and tidy git commit history.
 
 ### Useful resources
 
