@@ -11,7 +11,7 @@ This project is based on the React + Django Training by Mozdevz.
     - [Links](#links)
   - [The process](#the-process)
     - [Built with](#built-with)
-    - [How to contribute](#how-to-contribue)
+    - [How to contribute](#how-to-contribute)
     - [Useful resources](#useful-resources)
   - [Acknowledgments](#acknowledgments)
 
