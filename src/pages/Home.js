@@ -146,7 +146,7 @@ function Home() {
         {/* Container */}
         {/* <LogoContainer /> */}
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

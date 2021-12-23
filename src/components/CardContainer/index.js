@@ -3,7 +3,7 @@ import talents from '../../assets/icons/talents.svg'
 import startup from '../../assets/icons/startup.svg'
 import corporate from '../../assets/icons/corporate.svg'
 
-export function CardContainer() {
+function CardContainer() {
   return (
     <Container>
       <CardItem>

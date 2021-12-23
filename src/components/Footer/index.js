@@ -1,43 +1,53 @@
-import styles from '../../styles/Footer.module.css'
+import 
+{
+  Container, 
+  FLink, 
+  FooterCopy, 
+  FooterDetails, 
+  FooterLogo,
+  FooterNav,
+  FooterSocials
+} 
+from './styles'
 import logo from '../../assets/logo.png'
 import facebook from '../../assets/icons/facebook.svg'
 import twitter from '../../assets/icons/twitter.svg'
 
-export function Footer() {
+function Footer() {
   return (
-    <footer className={styles.footer}>
+    <Container>
       {/* Logo */}
-      <aside className={styles.footerLogo}>
+      <FooterLogo>
         <img
           src={logo}
           alt="Mozadevz"
-        />
-      </aside>
+        /> 
+      </FooterLogo>
 
       {/* Navigation */}
-      <aside className={styles.footerNav}>
-        <a href="/" className={styles.link}>Programas</a>
-        <a href="/" className={styles.link}>Equipe</a>
-        <a href="/" className={styles.link}>Sobre</a>
-        <a href="/" className={styles.link}>Contacto</a>
-      </aside>
+      <FooterNav>
+        <a href="/" >Programas</a>
+        <a href="/" >Equipe</a>
+        <a href="/" >Sobre</a>
+        <a href="/" >Contacto</a>
+      </FooterNav>
 
       {/* Footer Details */}
-      <aside className={styles.footerDetails}>
-        <p className={styles.footerCopys}>
-          {'<MOZDEVZ />'}. Todos os direitos reservados.
-        </p>
+      <FooterDetails>
 
-        <div className={styles.footerSocials}>
-          <i className={styles.socialIcon}>
+        <FooterSocials>
+          <i>
             <img src={facebook} alt='mozdevz facebook' />
           </i>
-          <i className={styles.socialIcon}>
+          <i>
             <img src={twitter} alt='mozdevz twitter' />
           </i>
-        </div>
-      </aside>
-    </footer>
+        </FooterSocials>
+        <FooterCopy>
+          {'<MOZDEVZ />'}. Todos os direitos reservados.
+        </FooterCopy>
+      </FooterDetails>
+    </Container>
   )
 }
 

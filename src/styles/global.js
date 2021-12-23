@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   --dark: hsl(345, 6%, 13%);
   --white: hsla(0, 0%, 100%, 1);
   --light-grey: hsl(0, 0%, 93%);
+  --mid-gray: #4B4B4B;
   --primary: hsla(358, 75%, 50%, 1);
   --secondary: hsla(358, 75%, 55%, 1);
 

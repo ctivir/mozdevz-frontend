@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 
-export function Header() {
+function Header() {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
