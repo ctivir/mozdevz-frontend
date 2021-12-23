@@ -1,7 +1,7 @@
-import styles from '../styles/Programs.module.css'
-import communities from '../assets/icons/communities.svg'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import styles from '../../styles/Programs.module.css'
+import communities from '../../assets/icons/communities.svg'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 
 function Programs() {

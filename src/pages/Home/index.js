@@ -1,13 +1,13 @@
-import cover from '../assets/cover.svg';
-import codingIcon from '../assets/icons/programing.svg';
-import mozdevz from '../assets/mozdevz.jpg';
-import Header from '../components/Header';
-import CardContainer from '../components/CardContainer';
-import Footer from '../components/Footer'
-import LogoContainer from '../components/LogoContainer';
-import StatsItem from '../components/StatsItem';
-import styles from '../styles/Home.module.css';
-import { Button } from '../components/Button';
+import cover from '../../assets/cover.svg';
+import codingIcon from '../../assets/icons/programing.svg';
+import mozdevz from '../../assets/mozdevz.jpg';
+import Header from '../../components/Header';
+import CardContainer from '../../components/CardContainer';
+import Footer from '../../components/Footer'
+import LogoContainer from '../../components/LogoContainer';
+import StatsItem from '../../components/StatsItem';
+import styles from '../../styles/Home.module.css';
+import { Button } from '../../components/Button';
 
 
 function Home() {

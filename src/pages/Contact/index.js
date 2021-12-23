@@ -1,11 +1,11 @@
-import styles from '../styles/Contact.module.css'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import location from '../assets/icons/location.svg'
-import email from '../assets/icons/email.svg'
-import phone from '../assets/icons/phone.svg'
-import twitter from '../assets/icons/twitter.svg'
-import facebook from '../assets/icons/facebook.svg'
+import styles from '../../styles/Contact.module.css'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import location from '../../assets/icons/location.svg'
+import email from '../../assets/icons/email.svg'
+import phone from '../../assets/icons/phone.svg'
+import twitter from '../../assets/icons/twitter.svg'
+import facebook from '../../assets/icons/facebook.svg'
 
 
 
