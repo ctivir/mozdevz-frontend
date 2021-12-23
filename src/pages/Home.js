@@ -127,7 +127,7 @@ function Home() {
         </aside>
 
         {/* Container */}
-        {/* <CardContainer /> */}
+        <CardContainer />
       </section>
 
       {/* Sponsors */}

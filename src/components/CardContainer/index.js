@@ -1,63 +1,61 @@
-import styles from '../../styles/Home.module.css'
+import { CardIcon, CardItem, CardText, CardTitle, Container } from './styles'
 import talents from '../../assets/icons/talents.svg'
 import startup from '../../assets/icons/startup.svg'
 import corporate from '../../assets/icons/corporate.svg'
 
 export function CardContainer() {
   return (
-    <aside className={styles.cardContainer}>
-      <aside className={styles.card}>
-        <img
-          className={styles.cardIcon}
+    <Container>
+      <CardItem>
+        <CardIcon
           src={talents}
           alt="Talentos"
-        />
-        <h3 className={styles.cardTitle}>
+        /> 
+        <CardTitle>
           Talentos
-        </h3>
-        <p className={styles.cardText}>
+        </CardTitle>
+        <CardText>
           Capacitados e desenvolvemos talentos
           com o objective de preprarar e integrar
           no mercado de trabalho atraves da
           nossa rede de parceiros
-        </p>
-      </aside>
+        </CardText>
+      </CardItem>
 
-      <aside className={styles.card}>
-        <img
-          className={styles.cardIcon}
+      <CardItem>
+        <CardIcon
           src={startup}
           alt="Startup"
         />
-        <h3 className={styles.cardTitle}>
+        <CardTitle>
           Startup
-        </h3>
-        <p className={styles.cardText}>
+        </CardTitle>
+        <CardText>
           Apoiamos equipas multidisplinares
           com orientação e capacitação no
           desenvolvimento de soluções
           tecnológicas em ambientes de
           extrema incerteza.
-        </p>
-      </aside>
+        </CardText>
+      </CardItem>
 
-      <aside className={styles.card}>
-        <img
-          className={styles.cardIcon}
+      <CardItem>
+        <CardIcon
+          
           src={corporate}
           alt="Corporate"
         />
-        <h3 className={styles.cardTitle}>
+        <CardTitle>
           Corporate
-        </h3>
-        <p className={styles.cardText}>
+        </CardTitle>
+        <CardText>
           Firmamos parceirias e trabalhamos com
           empresas e ONGs no desenvolvimento de
           soluções de base tecnológica para a
           resolução de problemas sociais.
-        </p>
-      </aside>
-    </aside>
+        </CardText>
+      </CardItem>
+      </Container>
   )
 }
 
