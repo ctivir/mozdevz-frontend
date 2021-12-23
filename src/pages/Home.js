@@ -53,7 +53,7 @@ function Home() {
 
         {/* Container */}
         <aside className={styles.statsContainer}>
-          {/* <StatsItem
+          <StatsItem
             title={'5000'}
             text={
               `Pessoas sensibilizadas 
@@ -84,7 +84,7 @@ function Home() {
                atraves de eventos educacionais 
                e partilha de experiencia`
             }
-          /> */}
+          />
         </aside>
       </section>
 
@@ -144,7 +144,7 @@ function Home() {
         </aside>
 
         {/* Container */}
-        {/* <LogoContainer /> */}
+        <LogoContainer />
       </section>
       <Footer />
     </div>

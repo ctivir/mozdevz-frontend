@@ -6,7 +6,7 @@ export function StatsItem(props) {
       <h2 className={styles.statsNumber}>
         {props.title}
         <span className={styles.bar}></span>
-      </h2>
+      </h2> 
       <p className={styles.statsText}>
         {props.text}
       </p>
