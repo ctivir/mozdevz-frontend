@@ -1,17 +1,11 @@
 .navbar {
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 2rem;
-  font-size: 1rem;
-  box-shadow: 5px 5px 5px -1px var(--light-grey);
 }
 
-.nav-logo {}
+.nav-logo {
+}
 
-.nav-item {}
+.nav-item {
+}
 
 .nav-links {
   display: grid;
@@ -59,5 +53,3 @@
     display: flex;
   }
 }
-
-

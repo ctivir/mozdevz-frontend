@@ -1,12 +1,13 @@
 import cover from '../assets/cover.svg';
 import codingIcon from '../assets/icons/programing.svg';
 import mozdevz from '../assets/mozdevz.jpg';
-import CardContainer from '../components/CardContainer';
 import Header from '../components/Header';
+import CardContainer from '../components/CardContainer';
 import Footer from '../components/Footer'
 import LogoContainer from '../components/LogoContainer';
 import StatsItem from '../components/StatsItem';
 import styles from '../styles/Home.module.css';
+import { Button } from '../components/Button';
 
 
 function Home() {
@@ -19,7 +20,9 @@ function Home() {
           <h1 className={styles.heroTitle}>
             A maior comunidade de desenvolvedores de Moçambique
           </h1>
-          <button>Saiba Mais</button>
+          <Button>
+            Saiba Mais
+          </Button>
         </aside>
 
         {/* Cover */}
@@ -50,7 +53,7 @@ function Home() {
 
         {/* Container */}
         <aside className={styles.statsContainer}>
-          <StatsItem
+          {/* <StatsItem
             title={'5000'}
             text={
               `Pessoas sensibilizadas 
@@ -81,7 +84,7 @@ function Home() {
                atraves de eventos educacionais 
                e partilha de experiencia`
             }
-          />
+          /> */}
         </aside>
       </section>
 
@@ -108,7 +111,7 @@ function Home() {
             para o desenvolvimento da sociedade atraves
             das soluções desenvolvidas.
           </p>
-          <button>Saiba Mais</button>
+          <Button>Saiba Mais</Button>
         </aside>
       </section>
 
@@ -124,7 +127,7 @@ function Home() {
         </aside>
 
         {/* Container */}
-        <CardContainer />
+        {/* <CardContainer /> */}
       </section>
 
       {/* Sponsors */}
@@ -141,9 +144,9 @@ function Home() {
         </aside>
 
         {/* Container */}
-        <LogoContainer />
+        {/* <LogoContainer /> */}
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

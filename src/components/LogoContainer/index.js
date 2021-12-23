@@ -1,13 +1,13 @@
-import styles from '../styles/Home.module.css'
-import cca from '../assets/sponsors/cca.png'
-import ciuem from '../assets/sponsors/ciuem.png'
-import coworklab from '../assets/sponsors/coworklab.png'
-import mctestp from '../assets/sponsors/mctestp.png'
-import oxfam from '../assets/sponsors/oxfam.png'
-import psi from '../assets/sponsors/psi.png'
-import reino from '../assets/sponsors/reino.png'
+import styles from '../../styles/Home.module.css'
+import cca from '../../assets/sponsors/cca.png'
+import ciuem from '../../assets/sponsors/ciuem.png'
+import coworklab from '../../assets/sponsors/coworklab.png'
+import mctestp from '../../assets/sponsors/mctestp.png'
+import oxfam from '../../assets/sponsors/oxfam.png'
+import psi from '../../assets/sponsors/psi.png'
+import reino from '../../assets/sponsors/reino.png'
 
-function LogoContainer() {
+export function LogoContainer() {
   return (
     <aside className={styles.logoContainer}>
       <aside className={styles.logoCard}>

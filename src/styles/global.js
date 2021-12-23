@@ -1,3 +1,8 @@
+import {createGlobalStyle } from "styled-components";
+
+
+
+export const GlobalStyle = createGlobalStyle`
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,8 +34,10 @@ ul {
   list-style: none;
 }
 
-html, body {
+html, body, button, a, p {
   color: var(--dark);
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
+`

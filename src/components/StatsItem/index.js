@@ -1,6 +1,6 @@
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
-function StatsItem(props) {
+export function StatsItem(props) {
   return (
     <aside className={styles.statsItem}>
       <h2 className={styles.statsNumber}>

@@ -1,9 +1,9 @@
-import styles from '../styles/Footer.module.css'
-import logo from '../assets/logo.png'
-import facebook from '../assets/icons/facebook.svg'
-import twitter from '../assets/icons/twitter.svg'
+import styles from '../../styles/Footer.module.css'
+import logo from '../../assets/logo.png'
+import facebook from '../../assets/icons/facebook.svg'
+import twitter from '../../assets/icons/twitter.svg'
 
-function Footer() {
+export function Footer() {
   return (
     <footer className={styles.footer}>
       {/* Logo */}

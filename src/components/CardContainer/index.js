@@ -1,9 +1,9 @@
-import styles from '../styles/Home.module.css'
-import talents from '../assets/icons/talents.svg'
-import startup from '../assets/icons/startup.svg'
-import corporate from '../assets/icons/corporate.svg'
+import styles from '../../styles/Home.module.css'
+import talents from '../../assets/icons/talents.svg'
+import startup from '../../assets/icons/startup.svg'
+import corporate from '../../assets/icons/corporate.svg'
 
-function CardContainer() {
+export function CardContainer() {
   return (
     <aside className={styles.cardContainer}>
       <aside className={styles.card}>
