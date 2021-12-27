@@ -1,53 +1,54 @@
-import styles from '../../styles/Programs.module.css'
+
 import communities from '../../assets/icons/communities.svg'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { ProgramsPage } from './styles';
 
 
 function Programs() {
   return (
-    <div className={styles.programs}>
+    <ProgramsPage >
       <Header />
-      <div className={styles.programsContainer}>
-        <div className={styles.programsDescription}>
-          <div className={styles.programsSection}>
-            <h1 className={styles.programsTitle}>
+      <div className="programsContainer">
+        <div className="programsDescription">
+          <div className="programsSection">
+            <h1 className="programsTitle">
               Programas para alavancar a sua carreira
             </h1>
-            <p className={styles.programsText}>
+            <p className="programsText">
               Nossos programas foram feitos pensando na sua
               carreira. Através dos nossos programas você tem
               a oportunidade de se conectar com outros devz e
-              impulsionar as suas habilidades tecnicas como
-              tambem alargar a sua rede de contactos.
+              impulsionar as suas habilidades técnicas como
+              também alargar a sua rede de contactos.
             </p>
           </div>
 
-          <div className={styles.programsSection}>
-            <h2 className={styles.programsSubTitle}>
-              Uma ponte para a sua vida acadêmica
+          <div className="programsSection">
+            <h2 className="programsSubTitle">
+              Uma ponte para a sua vida académica
               e a comunidade
             </h2>
-            <p className={styles.programsText}>
-              Criamos uma ponte de intercambio  e partilha de
+            <p className="programsText">
+              Criamos uma ponte de intercâmbio  e partilha de
               conhecimento entre comunidade e a sua school.
             </p>
           </div>
         </div>
 
         {/* Programs Items */}
-        <div className={styles.programsItems}>
-          <div className={styles.programsItem}>
-            <div className={styles.programsIcon}>
+        <div className="programsItems">
+          <div className="programsItem">
+            <div className="programsIcon">
               <img
-                className={styles.programsImage}
+                className="programsImage"
                 src={communities}
                 alt="Communities"
               />
             </div>
-            <div className={styles.programsItemText}>
-              <h2 className={styles.programsItemTitle}> Mozdevz Meetup</h2>
-              <p className={styles.programsItemDescription}>
+            <div className="programsItemText">
+              <h2 className="programsItemTitle"> Mozdevz Meetup</h2>
+              <p className="programsItemDescription">
                 É um evento para networking informal para as pessoas com um interesse
                 na utilização das Tecnologias de Informação e Comunicação
                 para Desenvolvimento.
@@ -58,17 +59,17 @@ function Programs() {
             </div>
           </div>
 
-          <div className={styles.programsItem}>
-            <div className={styles.programsIcon}>
+          <div className="programsItem">
+            <div className="programsIcon">
               <img
-                className={styles.programsImage}
+                className="programsImage"
                 src={communities}
                 alt="Communities"
               />
             </div>
-            <div className={styles.programsItemText}>
-              <h2 className={styles.programsItemTitle}> Mozdevz Meetup</h2>
-              <p className={styles.programsItemDescription}>
+            <div className="programsItemText">
+              <h2 className="programsItemTitle"> Mozdevz Meetup</h2>
+              <p className="programsItemDescription">
                 É um evento para networking informal para as pessoas com um interesse
                 na utilização das Tecnologias de Informação e Comunicação
                 para Desenvolvimento.
@@ -79,17 +80,17 @@ function Programs() {
             </div>
           </div>
 
-          <div className={styles.programsItem}>
-            <div className={styles.programsIcon}>
+          <div className="programsItem">
+            <div className="programsIcon">
               <img
-                className={styles.programsImage}
+                className="programsImage"
                 src={communities}
                 alt="Communities"
               />
             </div>
-            <div className={styles.programsItemText}>
-              <h2 className={styles.programsItemTitle}> Mozdevz Meetup</h2>
-              <p className={styles.programsItemDescription}>
+            <div className="programsItemText">
+              <h2 className="programsItemTitle"> Mozdevz Meetup</h2>
+              <p className="programsItemDescription">
                 É um evento para networking informal para as pessoas com um interesse
                 na utilização das Tecnologias de Informação e Comunicação
                 para Desenvolvimento.
@@ -102,7 +103,7 @@ function Programs() {
         </div>
       </div>
       <Footer />
-    </div>
+    </ProgramsPage >
   )
 }
 
