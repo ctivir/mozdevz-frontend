@@ -6,6 +6,7 @@ import email from '../../assets/icons/email.svg'
 import phone from '../../assets/icons/phone.svg'
 import twitter from '../../assets/icons/twitter.svg'
 import facebook from '../../assets/icons/facebook.svg'
+import { Button } from '../../components/Button';
 
 
 
@@ -96,7 +97,7 @@ function Contact() {
               <label htmlFor="message">Sua messagem</label>
               <textarea id="message" />
             </div>
-            <button type="submit">Enviar messagem</button>
+            <Button type="submit">Enviar messagem</Button>
           </form>
         </aside>
       </div>
