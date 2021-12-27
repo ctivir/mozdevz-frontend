@@ -18,8 +18,8 @@ function Header() {
   
 
   return (
-    <Container className='navbar'>
-      <Link to='/' className='nav-logo'>
+    <Container >
+      <Link to='/' >
         <img
           src={logo}
           alt='Mozdevz'

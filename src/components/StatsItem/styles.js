@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.aside`
-  display: flex;
+  display: block;
   gap: 2rem;
   margin-bottom: 1rem;
   .statsNumber{

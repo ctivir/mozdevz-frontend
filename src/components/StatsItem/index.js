@@ -1,16 +1,17 @@
-import styles from '../../styles/Home.module.css'
+import { Container } from "./styles";
+
 
 export function StatsItem(props) {
   return (
-    <aside className={styles.statsItem}>
-      <h2 className={styles.statsNumber}>
+    <Container>
+      <h2 className="statsNumber">
         {props.title}
-        <span className={styles.bar}></span>
+        <span className="bar"></span>
       </h2> 
-      <p className={styles.statsText}>
+      <p className="statsText">
         {props.text}
       </p>
-    </aside>
+    </Container>
   )
 }
 

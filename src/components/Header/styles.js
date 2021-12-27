@@ -23,6 +23,9 @@ export const Container = styled.nav`
 
 export const NavLink = styled(Link)`
   transition: 0.3s all;
+  @media (max-width: 500px){
+    display: none;
+  }
 `;
 
 export const NavList = styled.ul`
