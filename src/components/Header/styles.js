@@ -5,6 +5,9 @@ import { css } from "styled-components";
 const white = css`
 var(--white);
 `
+const hundred = css`
+-100%;
+`
 
 export const Container = styled.nav`
   height: 80px;
@@ -23,9 +26,7 @@ export const Container = styled.nav`
 
 export const NavLink = styled(Link)`
   transition: 0.3s all;
-  @media (max-width: 500px){
-    display: none;
-  }
+  
 `;
 
 export const NavList = styled.ul`
@@ -42,7 +43,7 @@ export const NavList = styled.ul`
     border-bottom: 1px solid var(--light-grey);
     width: 100%;
     top: 80px;
-    left: props => props.active ?  0 : -100% ;
+    left: ${props => props.active ?  0 : hundred} ;
     transition: 0.5s all;
     background: ${props => props.active ? white : "transparent"};
     li {

@@ -14,7 +14,7 @@ import { Button } from '../../components/Button';
 function Home() {
   return (
     <HomePage>
-      <Header />
+      <Header /> 
       <section className="hero">
         {/* Description */}
         <aside className="heroDescription">

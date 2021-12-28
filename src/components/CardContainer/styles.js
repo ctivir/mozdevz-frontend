@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.aside`
-  display: flex;
+  (min-width: 720px){
+    display: flex;
     grid-gap: 6rem;
     gap: 6rem;
+  }
 `
 export const CardItem = styled.aside`
   padding: 1.5rem;

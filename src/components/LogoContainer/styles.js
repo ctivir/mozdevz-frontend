@@ -16,12 +16,15 @@ export const Container = styled.aside`
 
 export const LogoCard = styled.aside`
   flex-basis: 80px;
-  
   border: 1px solid var(--primary);
+  img{
+      width: 80px;
+  }
   @media (min-width: 720px){
     flex-basis: 150px;
+    img{
+      width: 200px;
+    }
   }
-  img{
-    width: 200px;
-  }
+  
 `

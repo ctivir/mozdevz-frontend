@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.aside`
-  display: block;
+  display: flex;
   gap: 2rem;
   margin-bottom: 1rem;
   .statsNumber{
@@ -18,7 +18,7 @@ export const Container = styled.aside`
     background-color: var(--primary);
     height: .3rem;
   }
-  .stats-text{
+  .statsText{
     font-size: .6rem;
   }
 `

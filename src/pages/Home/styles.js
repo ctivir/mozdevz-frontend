@@ -3,58 +3,49 @@ import styled from "styled-components";
 export const HomePage = styled.div`
   .hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    padding: 4rem;
+    padding: 2rem 0.5rem;
 
     .heroDescription {
       order: 1;
-      flex: 2 1;
-      display: inherit;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
       .heroTitle {
-        text-align: left;
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 1rem;
         text-transform: uppercase;
         font-weight: var(--extra-bold);
+        padding-bottom: 2rem;
       }
     }
     .heroCover {
-      flex: 1 1;
-      order: 1;
       margin-bottom: 2rem;
 
       .coverImage {
         width: 80%;
       }
     }
-    @media (max-width: 720px) {
-      .hero {
-        flex-direction: row;
-        padding: 4rem;
+    @media (min-width: 720px) {
+      flex-direction: row;
+      padding: 4rem;
 
-        .heroDescription {
-          flex: 2;
-          display: inherit;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
+      .heroDescription {
+        flex: 2;
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
 
-          .heroTitle {
-            font-size: 1rem;
-            text-transform: uppercase;
-            font-weight: var(--extra-bold);
-          }
+        .heroTitle {
+          font-size: 2.5rem;
+          text-align: left;
+          text-transform: uppercase;
+          font-weight: var(--extra-bold);
         }
-        .heroCover {
-          flex: 1;
-          order: 1;
-          .coverImage {
-            width: 30rem;
-          }
+      }
+      .heroCover {
+        flex: 1;
+        order: 1;
+        .coverImage {
+          width: 30rem;
         }
       }
     }
@@ -62,24 +53,18 @@ export const HomePage = styled.div`
 
   .stats {
     background: var(--light-grey);
-    padding: 4rem;
+    padding: 2rem;
 
     .statsDescription {
       margin-bottom: 2rem;
-      display: flex;
-      justify-content: space-between;
 
       .codingIcon {
-        display: block;
-        img {
-          width: 5rem;
-        }
+        display: none;
       }
 
       .statsTitle {
-        text-align: left;
-        font-size: 2.5rem;
-        width: 25ch;
+        text-align: center;
+        font-size: 1.2rem;
 
         .hightlight {
           color: var(--primary);
@@ -87,9 +72,6 @@ export const HomePage = styled.div`
       }
     }
     .statsContainer {
-      display: flex;
-      grid-gap: 8rem;
-      gap: 8rem;
     }
     @media (min-width: 720px) {
       .stats {
