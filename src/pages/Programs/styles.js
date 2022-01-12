@@ -1,4 +1,7 @@
-.programs {}
+import styled from "styled-components";
+
+
+export const ProgramsPage = styled.div`
 
 .programsContainer {
   padding: 2rem;
@@ -99,3 +102,5 @@
     font-size: 1.8rem;
   }
 }
+
+`

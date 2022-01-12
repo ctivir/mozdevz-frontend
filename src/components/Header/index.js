@@ -1,5 +1,5 @@
-import '../styles/Header.css'
-import logo from '../assets/logo.png'
+import {HeaderContainer, NavIcon, NavLink, NavList} from './styles'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
@@ -15,37 +15,37 @@ function Header() {
     setOpen(false);
   }
 
-
+  
 
   return (
-    <nav className='navbar'>
-      <Link to='/' className='nav-logo'>
+    <HeaderContainer >
+      <Link to='/' >
         <img
           src={logo}
           alt='Mozdevz'
         />
       </Link>
-      <div onClick={handleClick} className='nav-icon'>
+      <NavIcon onClick={handleClick}>
         {open ? <FiX /> : <FiMenu />}
-      </div>
-      <ul className={open ? 'nav-links active' : 'nav-links'}>
+      </NavIcon>
+      <NavList active={open} >
         <li className='nav-item'>
-          <Link to='/' className='nav-link' onClick={closeMenu}>
+          <NavLink to='/' onClick={closeMenu}>
             Inicio
-          </Link>
+          </NavLink>
         </li>
         <li className='nav-item'>
-          <Link to='/programas' className='nav-link' onClick={closeMenu}>
+          <NavLink to='/programas' onClick={closeMenu}>
             Programas
-          </Link>
+          </NavLink>
         </li>
         <li className='nav-item'>
-          <Link to='/contacto' className='nav-link' onClick={closeMenu}>
+          <NavLink to='/contacto' onClick={closeMenu}>
             Contacto
-          </Link>
+          </NavLink>
         </li>
-      </ul>
-    </nav>
+      </NavList>
+    </HeaderContainer>
   )
 }
 

@@ -1,46 +1,50 @@
-import cover from '../assets/cover.svg';
-import codingIcon from '../assets/icons/programing.svg';
-import mozdevz from '../assets/mozdevz.jpg';
-import CardContainer from '../components/CardContainer';
-import Header from '../components/Header';
-import Footer from '../components/Footer'
-import LogoContainer from '../components/LogoContainer';
-import StatsItem from '../components/StatsItem';
-import styles from '../styles/Home.module.css';
+import { HomePage } from './styles';
+import cover from '../../assets/cover.svg';
+import codingIcon from '../../assets/icons/programing.svg';
+import mozdevz from '../../assets/mozdevz.jpg';
+import Header from '../../components/Header';
+import CardContainer from '../../components/CardContainer';
+import Footer from '../../components/Footer'
+import LogoContainer from '../../components/LogoContainer';
+import StatsItem from '../../components/StatsItem';
+
+import { Button } from '../../components/Button';
 
 
 function Home() {
   return (
-    <div className={styles.home}>
-      <Header />
-      <section className={styles.hero}>
+    <HomePage>
+      <Header /> 
+      <section className="hero">
         {/* Description */}
-        <aside className={styles.heroDescription}>
-          <h1 className={styles.heroTitle}>
+        <aside className="heroDescription">
+          <h1 className="heroTitle">
             A maior comunidade de desenvolvedores de Moçambique
           </h1>
-          <button>Saiba Mais</button>
+          <Button>
+            Saiba Mais
+          </Button>
         </aside>
 
         {/* Cover */}
-        <aside className={styles.heroCover}>
+        <aside className="heroCover">
           <img
-            className={styles.coverImage}
+            className="coverImage"
             src={cover}
             alt='Comunidade Mozdevz'
           />
         </aside>
       </section>
 
-      <section className={styles.stats}>
+      <section className="stats">
         {/* Description */}
-        <aside className={styles.statsDescription}>
-          <h2 className={styles.statsTitle}>
+        <aside className="statsDescription">
+          <h2 className="statsTitle">
             Impactamos milhares de
-            <span className={styles.hightlight}> devz </span>
+            <span className="hightlight"> devz </span>
             e impulsionamos carreiras
           </h2>
-          <i className={styles.codingIcon}>
+          <i className="codingIcon">
             <img
               src={codingIcon}
               alt='Coding Icon'
@@ -49,7 +53,7 @@ function Home() {
         </aside>
 
         {/* Container */}
-        <aside className={styles.statsContainer}>
+        <aside className="statsContainer">
           <StatsItem
             title={'5000'}
             text={
@@ -86,39 +90,39 @@ function Home() {
       </section>
 
       {/* Learn Section */}
-      <section className={styles.learn}>
+      <section className="learn">
         {/* Cover */}
-        <aside className={styles.learnCover}>
+        <aside className="learnCover">
           <img
-            className={styles.learnImage}
+            className="learnImage"
             src={mozdevz}
             alt='Comunidade Mozdevz'
           />
         </aside>
 
-        <aside className={styles.learnDescription}>
-          <h1 className={styles.learnTittle}>
+        <aside className="learnDescription">
+          <h1 className="learnTittle">
             Aprendemos em comunidade
           </h1>
-          <p className={styles.learnText}>
+          <p className="learnText">
             Proporcionamos oportunidades de partilha de
             conhecimento e desenvolvimento de habilidades
             para a criação de produtos digitais a jovens
-            durante o period de formação e contribuimos
+            durante o period de formação e contribuímos
             para o desenvolvimento da sociedade atraves
             das soluções desenvolvidas.
           </p>
-          <button>Saiba Mais</button>
+          <Button>Saiba Mais</Button>
         </aside>
       </section>
 
-      <section className={styles.connection}>
+      <section className="connection">
         {/* Description */}
-        <aside className={styles.connectionDescription}>
-          <h2 className={styles.connectionTitle}>
+        <aside className="connectionDescription">
+          <h2 className="connectionTitle">
             Conexão e Integração
           </h2>
-          <span className={styles.connectionHightlight}>
+          <span className="connectionHightlight">
             Experiência - Tecnologia - Conexão
           </span>
         </aside>
@@ -128,23 +132,23 @@ function Home() {
       </section>
 
       {/* Sponsors */}
-      <section className={styles.partners}>
+      <section className="partners">
         {/* Description */}
-        <aside className={styles.partnersDescription}>
-          <h2 className={styles.partnersTitle}>
+        <aside className="partnersDescription">
+          <h2 className="partnersTitle">
             Parceiros
           </h2>
-          <span className={styles.partnersHightlight}>
+          <span className="partnersHightlight">
             Responsaveis pelo apoio e suporte da
             comunidade
           </span>
-        </aside>
+        </aside> 
 
         {/* Container */}
         <LogoContainer />
       </section>
       <Footer />
-    </div>
+    </HomePage>
   )
 }
 

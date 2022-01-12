@@ -1,5 +1,7 @@
-.contact {}
+import styled from "styled-components";
 
+
+export const ContactPage = styled.div`
 .contactContainer {
   background-color: var(--light-grey);
   padding: 2rem;
@@ -18,12 +20,12 @@
 }
 
 .contactText {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .contactInfo {
   display: grid;
-  gap: .6rem;
+  gap: 0.6rem;
   margin-bottom: 2rem;
 }
 
@@ -35,7 +37,7 @@
 }
 
 .text {
-  font-size: .6rem;
+  font-size: 0.6rem;
 }
 
 .contactSocials {
@@ -53,7 +55,7 @@
 }
 
 .icon {
-  width: .8rem;
+  width: 0.8rem;
 }
 
 /* Contact Form */
@@ -62,27 +64,30 @@
   padding: 1.5rem;
 }
 
-.form {}
+.form {
+}
 
 .input {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
   margin-bottom: 1rem;
-}
-
-.input > input {
+  
+  input {
   border: none;
   border: 1px solid var(--secondary);
   height: 2.5rem;
-}
-
-.input > textarea {
+  }
+  textarea {
   border: none;
   border: 1px solid var(--secondary);
   height: 8rem;
   resize: none;
+  }
+
 }
+
+
 
 @media (min-width: 720px) {
   .contactContainer {
@@ -114,7 +119,7 @@
   }
 
   .text {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .socialIcon {
@@ -130,3 +135,6 @@
     padding: 3rem;
   }
 }
+
+`
+
