@@ -1,4 +1,4 @@
-import {Container, NavIcon, NavLink, NavList} from './styles'
+import {HeaderContainer, NavIcon, NavLink, NavList} from './styles'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
@@ -18,7 +18,7 @@ function Header() {
   
 
   return (
-    <Container >
+    <HeaderContainer >
       <Link to='/' >
         <img
           src={logo}
@@ -40,12 +40,12 @@ function Header() {
           </NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink to='/contacto' className='nav-link' onClick={closeMenu}>
+          <NavLink to='/contacto' onClick={closeMenu}>
             Contacto
           </NavLink>
         </li>
       </NavList>
-    </Container>
+    </HeaderContainer>
   )
 }
 

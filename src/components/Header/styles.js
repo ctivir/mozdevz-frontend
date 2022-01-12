@@ -9,7 +9,7 @@ const hundred = css`
 -100%;
 `
 
-export const Container = styled.nav`
+export const HeaderContainer = styled.nav`
   height: 80px;
   width: 100%;
   display: flex;
