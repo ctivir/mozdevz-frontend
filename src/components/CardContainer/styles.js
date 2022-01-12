@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.aside`
-  (min-width: 720px){
+  @media (min-width: 720px){
     display: flex;
     grid-gap: 6rem;
     gap: 6rem;

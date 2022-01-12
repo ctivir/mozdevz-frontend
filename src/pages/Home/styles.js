@@ -74,24 +74,23 @@ export const HomePage = styled.div`
     .statsContainer {
     }
     @media (min-width: 720px) {
-      .stats {
-        padding: 4rem;
+      padding: 4rem;
 
-        .statsDescription {
-          display: flex;
-          justify-content: space-between;
+      .statsDescription {
+        display: flex;
+        justify-content: space-between;
 
-          .codingIcon {
-            display: block;
-            img {
-              width: 5rem;
-            }
+        .codingIcon {
+          display: block;
+          img {
+            width: 5rem;
           }
         }
-        .statsContainer {
-          display: flex;
-          gap: 8rem;
-        }
+      }
+      .statsContainer {
+        display: flex;
+        gap: 8rem;
+        grid-gap: 8rem;
       }
     }
   }
