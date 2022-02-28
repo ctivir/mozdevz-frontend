@@ -1,4 +1,4 @@
-import { ContactPage } from './styles'
+import { ContactPage } from '../../styles/contact'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import location from '../../assets/icons/location.svg'

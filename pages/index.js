@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { HomePage } from './styles';
+import { HomePage } from '../styles/home';
 import cover from '../assets/cover.svg';
 import codingIcon from '../assets/icons/programing.svg';
 import mozdevz from '../assets/mozdevz.jpg';
