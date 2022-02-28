@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/static/js/main.a67a0fd4.chunk.js",
+    "main.js.map": "/static/js/main.a67a0fd4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.248907bc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.248907bc.js.map",
+    "static/js/2.2e20bc65.chunk.js": "/static/js/2.2e20bc65.chunk.js",
+    "static/js/2.2e20bc65.chunk.js.map": "/static/js/2.2e20bc65.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.2e20bc65.chunk.js.LICENSE.txt": "/static/js/2.2e20bc65.chunk.js.LICENSE.txt",
+    "static/media/cca.2dc8b294.png": "/static/media/cca.2dc8b294.png",
+    "static/media/communities.f926a150.svg": "/static/media/communities.f926a150.svg",
+    "static/media/corporate.f842d04a.svg": "/static/media/corporate.f842d04a.svg",
+    "static/media/cover.a44ea723.svg": "/static/media/cover.a44ea723.svg",
+    "static/media/email.6094386e.svg": "/static/media/email.6094386e.svg",
+    "static/media/facebook.0405e1f4.svg": "/static/media/facebook.0405e1f4.svg",
+    "static/media/location.cce59a46.svg": "/static/media/location.cce59a46.svg",
+    "static/media/mctestp.8c77f5c0.png": "/static/media/mctestp.8c77f5c0.png",
+    "static/media/mozdevz.0175ea18.jpg": "/static/media/mozdevz.0175ea18.jpg",
+    "static/media/phone.b2ae8e68.svg": "/static/media/phone.b2ae8e68.svg",
+    "static/media/programing.7f727e6f.svg": "/static/media/programing.7f727e6f.svg",
+    "static/media/startup.97104898.svg": "/static/media/startup.97104898.svg",
+    "static/media/talents.bf026bc0.svg": "/static/media/talents.bf026bc0.svg",
+    "static/media/twitter.f2faa61c.svg": "/static/media/twitter.f2faa61c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.248907bc.js",
+    "static/js/2.2e20bc65.chunk.js",
+    "static/js/main.a67a0fd4.chunk.js"
+  ]
+}
