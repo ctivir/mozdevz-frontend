@@ -1,11 +1,6 @@
 import 
 {
-<<<<<<< HEAD:components/Footer/index.js
-  Container,  
-=======
   Container, 
-  // FLink,
->>>>>>> c4e477298a09bf820f228e10eaec04ff7679d3e9:src/components/Footer/index.js
   FooterCopy, 
   FooterDetails, 
   FooterLogo,
