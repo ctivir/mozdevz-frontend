@@ -2,7 +2,7 @@
 import communities from '../../assets/icons/communities.svg'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import { ProgramsPage } from './styles';
+import { ProgramsPage } from '../../styles/programs';
 import Image from 'next/image';
 
 
