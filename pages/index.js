@@ -23,21 +23,37 @@ export default function Home() {
         <title>Em manutenção</title>
       </Head>
       
+      {/* Header Section */}
       <Header>
         <Image 
           src={logo}
         />
       </Header>
+
+      {/* Hero Image Section */}
       <SideCover>
-        <Image 
-          src={cover} 
-        />
+        <div className='img-mobile'>
+          <Image 
+            src={cover}
+          />
+        </div>
+        <div className='img-desktop'>
+          <Image 
+            src={cover}
+            layout='fill'
+            objectFit='cover'
+          />
+        </div>
       </SideCover>
+
+      {/* Main Content Section */}
       <Main>
         <h1>Estamos em <span>manutenção</span></h1>
         <h2>Segue-nos para <br /> mais actualizações!</h2>
         <p>contacto@mozdevz.org</p>
-        <SocialIconWrapper>
+       
+       {/* Socal Media Icons */}
+       <SocialIconWrapper>
           <div className="icon-wrapper">
             <Image src={twitter} />
           </div>
