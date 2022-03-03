@@ -28,25 +28,33 @@ export default function Home() {
           src={logo}
         />
       </Header>
+      <SideCover>
+        <Image 
+          src={cover} 
+        />
+      </SideCover>
       <Main>
         <h1>Estamos em <span>manutenção</span></h1>
         <h2>Segue-nos para <br /> mais actualizações!</h2>
         <p>contacto@mozdevz.org</p>
+        <SocialIconWrapper>
+          <div className="icon-wrapper">
+            <Image src={twitter} />
+          </div>
+          <div className="icon-wrapper">
+            <Image src={facebook} />
+          </div>
+          <div className="icon-wrapper">
+            <Image src={linkedin} />
+          </div>
+          <div className="icon-wrapper">
+            <Image src={instagram} />
+          </div>
+          <div className="icon-wrapper">
+            <Image src={youtube} />
+          </div>
+        </SocialIconWrapper>
       </Main>
-      <SideCover>
-        <Image 
-          src={cover}
-          layout='fill'
-          objectFit='cover' 
-        />
-      </SideCover>
-      <SocialIconWrapper>
-        <Image src={twitter} />
-        <Image src={facebook} />
-        <Image src={linkedin} />
-        <Image src={instagram} />
-        <Image src={youtube} />
-      </SocialIconWrapper>
     </ComingSoon>
   )
 }
