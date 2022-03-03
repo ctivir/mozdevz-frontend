@@ -1,14 +1,20 @@
 import styled from 'styled-components';
 
 export const ComingSoon = styled.div`
-  
+
+  @media (min-width: 600px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px auto;
+    height: 100vh;
+  }
 `
 
 export const Header = styled.header`
   padding: 1.5rem;
   
   @media (min-width: 600px) {
-    
+    padding: 4rem;
   }
 `
 
@@ -39,6 +45,18 @@ export const Main = styled.main`
   }
 
   @media (min-width: 600px) {
+    padding: 4rem;
+    padding-top: 6rem;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+
+      span {
+        font-size: 4rem;
+      }
+    }
+
     h2 {
       font-size: 1.8rem;
       letter-spacing: 2px;
@@ -46,17 +64,27 @@ export const Main = styled.main`
       margin-bottom: .5rem;
       width: 25ch;
     }
-
-    @media (min-width: 600px) {
-      
-    }
   }
 `
 
 export const SideCover = styled.div`
-  
+    .img-desktop {
+      display: none;
+    }
+
+    .img-mobile {}
     @media (min-width: 600px) {
+      grid-colunn: 2/3;
+      height: 100vh;
+      position: relative;
       
+      .img-mobile {
+        display: none;
+      }
+
+      .img-desktop {
+        display: block;
+      }
     }
 `
 
