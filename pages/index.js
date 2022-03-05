@@ -35,11 +35,13 @@ export default function Home() {
         <div className='img-mobile'>
           <Image 
             src={cover}
+            alt='Mozdevz hero mobile'
           />
         </div>
         <div className='img-desktop'>
           <Image 
             src={cover}
+            alt='Mozdevz hero desktop'
             layout='fill'
             objectFit='cover'
           />
@@ -55,19 +57,19 @@ export default function Home() {
        {/* Socal Media Icons */}
        <SocialIconWrapper>
           <div className="icon-wrapper">
-            <Image src={twitter} />
+            <Image src={twitter} alt='twitter icon'/>
           </div>
           <div className="icon-wrapper">
-            <Image src={facebook} />
+            <Image src={facebook} alt='facebook icon'/>
           </div>
           <div className="icon-wrapper">
-            <Image src={linkedin} />
+            <Image src={linkedin} alt='linkedin icon'/>
           </div>
           <div className="icon-wrapper">
-            <Image src={instagram} />
+            <Image src={instagram} alt='instagram icon'/>
           </div>
           <div className="icon-wrapper">
-            <Image src={youtube} />
+            <Image src={youtube} alt='youtube icon'/>
           </div>
         </SocialIconWrapper>
       </Main>
