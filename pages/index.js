@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from '../assets/logo.png'
 import twitter from '../public/twitter.png'
 import facebook from '../public/facebook.png'
@@ -27,6 +28,7 @@ export default function Home() {
       <Header>
         <Image 
           src={logo}
+          alt='Comunidade Moçambicana de Desenvolvedores de Software e Aplicações'
         />
       </Header>
 
@@ -56,21 +58,31 @@ export default function Home() {
        
        {/* Socal Media Icons */}
        <SocialIconWrapper>
-          <div className="icon-wrapper">
-            <Image src={twitter} alt='twitter icon'/>
-          </div>
-          <div className="icon-wrapper">
-            <Image src={facebook} alt='facebook icon'/>
-          </div>
-          <div className="icon-wrapper">
-            <Image src={linkedin} alt='linkedin icon'/>
-          </div>
-          <div className="icon-wrapper">
-            <Image src={instagram} alt='instagram icon'/>
-          </div>
-          <div className="icon-wrapper">
-            <Image src={youtube} alt='youtube icon'/>
-          </div>
+          <Link href="https://twitter.com/mozdevz">
+            <a className="icon-wrapper">
+              <Image src={twitter} alt='twitter icon'/>
+            </a>
+          </Link>
+          <Link href="https://www.facebook.com/mozdevz/">
+            <a className="icon-wrapper">
+              <Image src={facebook} alt='facebook icon'/>
+            </a>
+          </Link>
+          <Link href="https://www.linkedin.com/company/mozdevz/">
+            <a className="icon-wrapper">
+              <Image src={linkedin} alt='linkedin icon'/>  
+            </a>
+          </Link>
+          <Link href="https://www.instagram.com/mozdevz/">
+            <a className="icon-wrapper">
+              <Image src={instagram} alt='instagram icon'/>  
+            </a>
+          </Link>
+          <Link href="https://www.youtube.com/channel/UC4vjNsLZPZUYTjsQllEMiMQ">
+            <a className="icon-wrapper">
+              <Image src={youtube} alt='youtube icon'/>  
+            </a>
+          </Link>
         </SocialIconWrapper>
       </Main>
     </ComingSoon>
